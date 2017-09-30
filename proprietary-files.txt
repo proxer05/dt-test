@@ -1081,7 +1081,6 @@ system_ext/lib/extractors/libmmparserextractor.so|f652313d65d5c629dd62e20e62f461
 system_ext/lib64/libavenhancements.so|c3009929113328344daf7e5b5edb4d65d5e93893
 vendor/etc/seccomp_policy/mediacodec.policy|f1097f8e67ef20de89176cf2e9c4f5c91cb77897
 vendor/lib/libFlacSwDec.so|7d661ac115de794bc6f6f7d20d4f93735b698c52
-vendor/lib/libI420colorconvert.so|5a7726bbd8c7343e05d6251185fa72ed27b3da5c
 vendor/lib/libmm-color-convertor.so|7e1536ab3926ece1da6c6a73cb5b1635f75762c7
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
 vendor/lib/libOmxAacDec.so|bf58149b431b51be3473eebe8ee62cf74c8c82c7
