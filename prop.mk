@@ -171,6 +171,8 @@ ro.gps.agps_provider=1
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
+debug.stagefright.omx_default_rank.sw-audio=1 \
+debug.stagefright.omx_default_rank=0 \
 debug.sf.enable_hwc_vds=1 \
 media.aac_51_output_enabled=true \
 media.msm8956hw=0 \
