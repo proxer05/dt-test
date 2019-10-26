@@ -94,7 +94,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.2-impl \
-    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudioroute \
@@ -104,6 +103,12 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libvolumelistener
+
+# A2DP
+PRODUCT_PACKAGES += \
+  audio.a2dp.default \
+  android.hardware.bluetooth.a2dp@1.0-impl \
+  android.hardware.bluetooth.a2dp@1.0-service
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
