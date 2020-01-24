@@ -184,9 +184,6 @@ TARGET_NO_RECOVERY := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# Security Patch Level
-VENDOR_SECURITY_PATCH := 2020-02-05
-
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
@@ -200,6 +197,7 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/libgf_ca.so|fakelogprint.so \
     /vendor/lib64/libgf_hal.so|fakelogprint.so \
     /vendor/lib64/hw/fingerprint.default.so|fakelogprint.so
+
 # Telephony
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
