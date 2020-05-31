@@ -17,7 +17,7 @@ vendor.audio.dolby.ds2.enabled=false \
 vendor.audio.dolby.ds2.hardbypass=false \
 ro.vendor.audio.sdk.fluencetype=fluence \
 vendor.audio.flac.sw.decoder.24bit=true \
-vendor.audio_hal.period_size=192 \
+vendor.audio_hal.period_size=240 \
 vendor.audio.offload.buffer.size.kb=64 \
 vendor.audio.offload.gapless.enabled=true \
 vendor.audio.offload.multiaac.enable=true \
@@ -118,6 +118,7 @@ debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.idletime=600 \
 debug.mdpcomp.logs=0 \
+debug.sf.enable_hwc_vds=1 \
 debug.performance.tuning=1 \
 debug.sf.disable_backpressure=1 \
 debug.sf.disable_hwc=0 \
@@ -171,7 +172,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
 debug.stagefright.omx_default_rank.sw-audio=1 \
 debug.stagefright.omx_default_rank=0 \
-debug.sf.enable_hwc_vds=1 \
 media.aac_51_output_enabled=true \
 media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
@@ -185,9 +185,7 @@ vendor.vidc.dec.downscalar_width=1920 \
 vendor.vidc.disable.split.mode=1 \
 vendor.vidc.enc.disable.pq=true \
 vendor.vidc.enc.disable_bframes=1 \
-vendor.video.disable.ubwc=1 \
 vendor.display.enable_default_color_mode=1 \
-vendor.gralloc.enable_fb_ubwc=1 \
 vendor.video.disable.ubwc=1 \
 debug.stagefright.omx_default_rank=0
 
@@ -203,10 +201,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Netflix custom property
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.netflix.bsp_rev=Q6150-17263-1
-
-# Display cutout
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.potato.has_cutout=true
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
