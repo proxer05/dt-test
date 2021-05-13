@@ -16,5 +16,17 @@
     "repository" : "vendor_xiaomi_daisy",
     "target_path" : "vendor/xiaomi/daisy",
     "branch" : "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "crdroidandroid/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8996-daisy/display",
+    "branch": "11.0-caf-msm8996"
+  },
+  {
+    "remote": "github",
+    "repository": "crdroidandroid/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8996-daisy/media",
+    "branch": "11.0-caf-msm8996"
   }
 ]
