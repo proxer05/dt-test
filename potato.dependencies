@@ -1,14 +1,12 @@
 [
- {
-   "repository"  : "kernel_xiaomi_msm8953",
-   "target_path" : "kernel/xiaomi/msm8953",
-   "remote"      : "pixel-devices",
-   "branch"      : "eleven"
- },
- {
-   "repository"  : "vendor_xiaomi_sakura",
-   "target_path" : "vendor/xiaomi/sakura",
-   "remote"      : "pixel-devices-blobs",
-   "branch"      : "eleven"
- }
+  {
+    "repository" : "Couchpotato-sauce/kernel_xiaomi_daisy",
+    "target_path" : "kernel/xiaomi/msm8953",
+    "branch" : "eleven"
+  },
+  {
+    "repository" : "LinkBoi00/vendor_xiaomi_daisy",
+    "target_path" : "vendor/xiaomi/daisy",
+    "branch" : "eleven"
+  },
 ]
