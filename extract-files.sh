@@ -12,7 +12,7 @@ fi
 set -e
 
 # Required!
-DEVICE=sakura
+DEVICE=daisy
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
