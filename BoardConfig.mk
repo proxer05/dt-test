@@ -197,8 +197,8 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/hw/gf_fingerprint.default.so|fakelogprint.so \
     /vendor/lib64/libgf_ca.so|fakelogprint.so \
-    /vendor/lib64/libgf_hal.so|fakelogprint.so
-
+    /vendor/lib64/libgf_hal.so|fakelogprint.so \
+    /vendor/lib64/hw/fingerprint.default.so|fakelogprint.so
 # Telephony
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
