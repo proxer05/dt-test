@@ -209,6 +209,9 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+# Dex
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
