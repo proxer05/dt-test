@@ -18,12 +18,32 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+#
+# All components inherited here go to system_ext image
+#
+$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
+
 # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
-# Inherit some common source stuff
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+
+# Inherit some common RevengeOS flags
+REVENGEOS_BUILDTYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := daisy
+PRODUCT_NAME := revengeos_daisy
+BOARD_VENDOR := Xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Mi A2 Lite
+PRODUCT_MANUFACTURER := Xiaomi
+TARGET_VENDOR := Xiaomi
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.210605.005/7349499:user/release-keys
@@ -31,16 +51,9 @@ BUILD_DESCRIPTION := coral-user 11 RQ3A.210605.005 7349499 release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := daisy
-PRODUCT_NAME := potato_daisy
-BOARD_VENDOR := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi A2 Lite
-PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi

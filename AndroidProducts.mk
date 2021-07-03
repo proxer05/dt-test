@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_daisy.mk
+    $(LOCAL_DIR)/revengeos_daisy.mk
+
+COMMON_LUNCH_CHOICES := \
+    revengeos_daisy-user \
+    revengeos_daisy-userdebug \
+    revengeos_daisy-eng
