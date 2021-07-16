@@ -502,10 +502,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
-# Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Don't build debug for host or device
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 ART_BUILD_TARGET_NDEBUG := true
