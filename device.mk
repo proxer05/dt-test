@@ -361,6 +361,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
     init.qcom.sh \
+    init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
 
@@ -443,14 +444,6 @@ VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh
-
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/qcom/opensource/usb/etc
 
 # VNDK
 PRODUCT_PACKAGES += \
