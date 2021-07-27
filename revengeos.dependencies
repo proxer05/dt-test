@@ -6,6 +6,12 @@
     "branch" : "eleven"
   },
   {
+    "remote": "github",
+    "repository" : "mvaisakh/gcc-arm64",
+    "target_path" : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch" : "gcc-master"
+  },
+  {
     "remote": "devices",
     "repository" : "vendor_xiaomi_daisy",
     "target_path" : "vendor/xiaomi/daisy",
