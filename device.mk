@@ -445,10 +445,6 @@ PRODUCT_PACKAGES += \
 # Vendor SPL
 VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
-# Verity
-PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
-$(call inherit-product, build/target/product/verity.mk)
-
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package
