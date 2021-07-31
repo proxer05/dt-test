@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
     bootctrl.msm8953 \
+    bootctrl.msm8953.recovery \
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
