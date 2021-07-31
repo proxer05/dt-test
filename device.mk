@@ -207,6 +207,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     libdisplayconfig \
     libdisplayconfig.vendor \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.system \
     libdisplayconfig.qti.vendor \
     libqdMetaData \
     libqdMetaData.vendor \
