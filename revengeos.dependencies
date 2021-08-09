@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository" : "mvaisakh/gcc-arm64",
+    "repository" : "proxer05/gcc-arm64",
     "target_path" : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
     "branch" : "gcc-master"
   },
