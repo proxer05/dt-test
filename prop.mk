@@ -49,6 +49,11 @@ persist.vendor.qcom.bluetooth.soc=pronto \
 ro.bluetooth.a2dp_offload.supported=false \
 vendor.qcom.bluetooth.soc=pronto
 
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.sf.blurs_are_expensive=1 \
+ro.surface_flinger.supports_background_blur=1
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 vidc.enc.dcvs.extra-buff-count=2 \
