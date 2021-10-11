@@ -159,9 +159,6 @@ PRODUCT_PACKAGES += \
     bootctrl.msm8953 \
     bootctrl.msm8953.recovery \
 
-PRODUCT_PACKAGES_DEBUG += \
-    bootctl
-
 # Binder
 PRODUCT_PACKAGES += \
     libhwbinder \
