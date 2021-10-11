@@ -79,19 +79,6 @@ vendor/lib/libqtigef.so|80fb4a524d9d11c6e94c337ea263256f816f1f39
 vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
 vendor/lib/libtinycompress_vendor.so|4991b78d9ed12b828ceeaf61e5cde6328eb944b9
 vendor/lib/soundfx/libaudiopreprocessing.so|948f18c576254144f48e9051be28e7d23f8562cc
-vendor/lib64/libacdb-fts.so|ae8275322050d1bd5cebf2cee15864fcf3c87fdf
-vendor/lib64/libacdbloader.so|39a24dfed0d8d6aaa41fd924b373fd226c944538
-vendor/lib64/libacdbrtac.so|547a42e2ed54d13e780fab26134ec0fd90054d4c
-vendor/lib64/libadiertac.so|98a8c2702d4e203689e4a80c69c4b1cf93af1567
-vendor/lib64/libaudcal.so|09f5fe513d72664f8fa1ebd7f17ce676e8741346
-vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
-vendor/lib64/libaudioconfigstore.so|a862e94f4fc75ce3c3274f219be8c128fe58a822
-vendor/lib64/libaudioparsers.so|67f6836de4391c33cc030faa5c885ab250324291
--vendor/lib64/libaudio_log_utils.so|3670ed70e68b209f67852cad81b74d2dda2de3cd
-vendor/lib64/libqtigef.so|9108e3248c066102d7c57dd79d3e960647a8c84d
-vendor/lib64/libtinycompress.so|8d670f7c3079e96b5a36945e95082104876dd64a
-vendor/lib64/libtinycompress_vendor.so|74909f72ee8ebb01c2f4ef717e902055272a5917
-vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755121f49
 
 # Audio dirac - from mido-user 7.0 NRD90M V11.0.2.0.NCFMIXM release-keys
 lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
