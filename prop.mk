@@ -6,7 +6,6 @@ audio.chk.cal.us=0 \
 audio.offload.disable=false \
 audio.offload.min.duration.secs=30 \
 audio.offload.video=true \
-debug.stagefright.omx_default_rank.sw-audio=1 \
 persist.vendor.audio.hw.binder.size_kbyte=1024 \
 persist.vendor.audio.speaker.prot.enable=false \
 ro.audio.soundfx.dirac=true \
@@ -19,7 +18,6 @@ vendor.audio.dolby.ds2.hardbypass=false \
 ro.vendor.audio.sdk.fluencetype=fluence \
 vendor.audio.flac.sw.decoder.24bit=true \
 vendor.audio_hal.period_size=192 \
-vendor.audio.hw.aac.encoder=true \
 vendor.audio.offload.buffer.size.kb=64 \
 vendor.audio.offload.gapless.enabled=true \
 vendor.audio.offload.multiaac.enable=true \
@@ -191,7 +189,6 @@ vendor.video.disable.ubwc=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 vendor.video.disable.ubwc=1 \
-debug.stagefright.omx_default_rank.sw-audio=1 \
 debug.stagefright.omx_default_rank=0
 
 # Memory optimizations
