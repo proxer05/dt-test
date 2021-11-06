@@ -206,13 +206,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
-    libdisplayconfig \
-    libdisplayconfig.vendor \
-    libdisplayconfig.qti \
-    libdisplayconfig.qti.system \
-    libdisplayconfig.qti.vendor \
-    libqdMetaData \
-    libqdMetaData.vendor \
     libqdMetaData.system \
     libgenlock \
     libtinyxml \
@@ -512,12 +505,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
-
-# Wi-Fi Display
-PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libnl \
-    libwfdaac
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
